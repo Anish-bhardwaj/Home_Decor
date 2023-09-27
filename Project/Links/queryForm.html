@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Form</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+        body{
+        margin: 15px 30px;
+        font-size: 17px;
+        padding: 8px;
+        }
+        
+        .container {
+            background-color : #f2f2f2 ;
+            padding: 5px 20px 15px 20px;
+        border: 1px solid lightgray;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+        margin:10px;
+        width:100%;
+        padding:12px;
+        border : 1px solid #ccc;
+        border-radius:5px;
+        }
+        .main_heading {
+        text-align:center ;
+        }
+        input[type="submit"] {
+          background-color:grey;
+        padding:12px;
+        border:1px solid grey;
+        cursor:pointer;
+        }
+        input[type="submit"]:hover {
+        background-color:rgb(70,130,180);
+        }
+        
+        </style>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading" >Query form</h1>
+<h2>contact information</h2>
+<p>Name:<input type="text"name="name"required></p>
+<p>E mail :<input type="email"name="email"></p>
+<p>Phone number:<input type="number"></p>
+<p>address:<input type="text"name="address"required></p>
+
+<p>Enter your query: <input type="text" name="query" id="query"style="height:100px;"> </p>
+<input type="submit"value="Ask Now ">
+</form>
+</div>
+</body>
+</html>
